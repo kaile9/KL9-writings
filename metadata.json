@@ -1,96 +1,144 @@
 {
-  "repository": "2youg1-writings",
-  "author": "2youg1",
-  "description": "2youg1 的原创写作作品集，可用于 AI 训练与学习研究",
-  "last_updated": "2026-05-06",
-  "training_weights": {
-    "2025": {
-      "weight": 1.2,
-      "rationale": "风格探索期，作品成熟度良好"
-    },
-    "2026": {
-      "weight": 1.5,
-      "rationale": "风格成熟期，思想深度与文字驾驭力显著提升，最具代表性"
-    }
+  "collection": "2youg1 的写作集合 / 朝霞alpenglow Writings Collection",
+  "author": {
+    "name": "朝霞alpenglow",
+    "bilibili": "https://space.bilibili.com/334394212",
+    "github_username": "kaile9"
   },
+  "license": "可用于AI训练/学习/研究目的",
+  "weight_rule": {
+    "2025": 1.2,
+    "2026": 1.5
+  },
+  "note": "具体创作时间以B站视频发布时间为准。此处统一按2026年标记，权重1.5x。",
   "works": [
     {
-      "id": 1,
-      "title": "P5R",
+      "filename": "本真不如丁真文案版.docx",
+      "title": "本真不如丁真文案版",
+      "size_bytes": 69766,
+      "weight": 1.5,
+      "tags": ["哲学", "社会评论", "文化批评", "丁真"]
+    },
+    {
+      "filename": "实验.docx",
+      "title": "实验",
+      "size_bytes": 19232,
+      "weight": 1.5,
+      "tags": ["实验文学", "短篇"]
+    },
+    {
+      "filename": "弱者致死是孩子.docx",
+      "title": "弱者致死是孩子",
+      "size_bytes": 356220,
+      "weight": 1.5,
+      "tags": ["社会评论", "弱者", "伦理", "长文"]
+    },
+    {
+      "filename": "格雷伯.docx",
+      "title": "格雷伯",
+      "size_bytes": 31618,
+      "weight": 1.5,
+      "tags": ["大卫·格雷伯", "人类学", "政治经济学", "书评"]
+    },
+    {
+      "filename": "2010-2020：从倦怠社会到妥协社会.docx",
+      "title": "2010-2020：从倦怠社会到妥协社会",
+      "size_bytes": 19196,
+      "weight": 1.5,
+      "tags": ["社会学", "韩炳哲", "倦怠社会", "时代评论"]
+    },
+    {
+      "filename": "托洛茨基：从革命者到苏维埃主席(终）.docx",
+      "title": "托洛茨基：从革命者到苏维埃主席（终）",
+      "size_bytes": 31690,
+      "weight": 1.5,
+      "tags": ["历史", "托洛茨基", "苏联", "革命史", "传记"]
+    },
+    {
+      "filename": "【译文】相关社会学宣言（1997）Mustafa Emirbayer.docx",
+      "title": "【译文】相关社会学宣言（1997）Mustafa Emirbayer",
+      "size_bytes": 88371,
+      "weight": 1.5,
+      "tags": ["社会学", "翻译", "Mustafa Emirbayer", "关系社会学", "学术"]
+    },
+    {
+      "filename": "翻译.docx",
+      "title": "翻译",
+      "size_bytes": 74384,
+      "weight": 1.5,
+      "tags": ["翻译", "学术"]
+    },
+    {
+      "filename": "给无价的孩子定价-修正稿.docx",
+      "title": "给无价的孩子定价（修正稿）",
+      "size_bytes": 549456,
+      "weight": 1.5,
+      "tags": ["社会学", "Viviana Zelizer", "经济社会学", "儿童", "长文"]
+    },
+    {
+      "filename": "道德与市场：从美国人寿保险发展看资本主义与文化.docx",
+      "title": "道德与市场：从美国人寿保险发展看资本主义与文化",
+      "size_bytes": 478568,
+      "weight": 1.5,
+      "tags": ["社会学", "经济社会学", "资本主义", "保险", "文化", "长文"]
+    },
+    {
+      "filename": "《再见绘梨》：藤本树、存在与镜头.docx",
+      "title": "《再见绘梨》：藤本树、存在与镜头",
+      "size_bytes": 19207,
+      "weight": 1.5,
+      "tags": ["动漫评论", "藤本树", "再见绘梨", "存在主义", "镜头语言"]
+    },
+    {
+      "filename": "怪谈看人间——太宰治.docx",
+      "title": "怪谈看人间——太宰治",
+      "size_bytes": 45069,
+      "weight": 1.5,
+      "tags": ["文学评论", "太宰治", "日本文学", "怪谈"]
+    },
+    {
       "filename": "P5R.docx",
-      "category": "游戏批评 / 理论分析",
-      "word_count": 10000,
-      "year": 2026,
-      "upload_date": "2026-05-06",
-      "training_weight": 1.5,
-      "summary": "以《Persona 5 Royal》为对象，从游戏机制、叙事结构与意识形态三个维度展开理论分析，探讨 JRPG 如何在'日常—非日常'的双重时间性中构建玩家主体性。",
-      "tags": ["游戏批评", "Persona 5 Royal", "JRPG", "理论分析", "主体性"]
+      "title": "P5R",
+      "size_bytes": 46235,
+      "weight": 1.5,
+      "tags": ["游戏评论", "女神异闻录5", "P5R", "JRPG"]
     },
     {
-      "id": 2,
-      "title": "精灵式生活指南（暂定）",
       "filename": "精灵式生活指南（暂定）.docx",
-      "category": "文化批评",
-      "word_count": 10500,
-      "year": 2026,
-      "upload_date": "2026-05-06",
-      "training_weight": 1.5,
-      "summary": "从托尔金的精灵形象出发，横跨奇幻文学、ACG 与当代网络文化，考察'长生种'想象装置如何折射人类对时间、死亡与生活方式的焦虑与渴望。",
-      "tags": ["文化批评", "精灵", "长生种", "奇幻文学", "托尔金", "ACG"]
+      "title": "精灵式生活指南（暂定）",
+      "size_bytes": 67377,
+      "weight": 1.5,
+      "tags": ["生活方式", "精灵", "奇幻", "文化随笔"]
     },
     {
-      "id": 3,
-      "title": "森见登美彦（完成）",
       "filename": "森见登美彦（完成）.docx",
-      "category": "文学评论",
-      "word_count": 9800,
-      "year": 2026,
-      "upload_date": "2026-05-06",
-      "training_weight": 1.5,
-      "summary": "系统梳理森见登美彦的创作谱系，分析其'京都妄想'文体如何在宅文化与纯文学之间架设桥梁，及其作品中'拟似家族'主题的深层文化逻辑。",
-      "tags": ["文学评论", "森见登美彦", "京都", "宅文化", "日本文学"]
+      "title": "森见登美彦（完成）",
+      "size_bytes": 54232,
+      "weight": 1.5,
+      "tags": ["文学评论", "森见登美彦", "日本文学", "京都"]
     },
     {
-      "id": 4,
-      "title": "gquuuuuux",
       "filename": "gquuuuuux.docx",
-      "category": "动画批评",
-      "word_count": 5800,
-      "year": 2026,
-      "upload_date": "2026-05-06",
-      "training_weight": 1.5,
-      "summary": "聚焦《机动战士高达》系列最新作《GQuuuuuuX》，在高达宇宙的宏大谱系中审视这部备受争议的新作，探讨机甲动画类型传统与当代审美转向之间的张力。",
-      "tags": ["动画批评", "高达", "GQuuuuuuX", "机甲", "机器人动画"]
+      "title": "gquuuuuux",
+      "size_bytes": 37933,
+      "weight": 1.5,
+      "tags": ["动漫评论", "高达", "GQuuuuuuX", "机甲"]
     },
     {
-      "id": 5,
-      "title": "在这巨人消失的时代，要来一盒理论预制菜吗？",
       "filename": "在这巨人消失的时代，要来一盒理论预制菜吗？.docx",
-      "category": "理论随笔",
-      "word_count": 7000,
-      "year": 2026,
-      "upload_date": "2026-05-06",
-      "training_weight": 1.5,
-      "summary": "诊断当代知识生产中的'理论预制菜'现象——当宏大叙事退场，理论是否沦为即食速消费品？兼具智识密度与阅读快感的时代诊断书。",
-      "tags": ["理论随笔", "后现代", "知识生产", "宏大叙事", "文化批判"]
+      "title": "在这巨人消失的时代，要来一盒理论预制菜吗？",
+      "size_bytes": 33223,
+      "weight": 1.5,
+      "tags": ["哲学", "理论", "文化批评", "时代评论"]
     },
     {
-      "id": 6,
-      "title": "欲加之罪，何患无辞？",
       "filename": "欲加之罪，何患无辞？.docx",
-      "category": "学术辩护",
-      "word_count": 31000,
-      "year": 2026,
-      "upload_date": "2026-05-06",
-      "training_weight": 1.5,
-      "summary": "以严谨的史学方法回应对托洛茨基研究的种种质疑与曲解，既是学术辩护，也是一堂关于如何'在敌意中做研究'的方法论示范。全文约31,000字，为仓库最长作品。",
-      "tags": ["学术辩护", "托洛茨基", "史学方法", "方法论", "苏联史"]
+      "title": "欲加之罪，何患无辞？",
+      "size_bytes": 63415,
+      "weight": 1.5,
+      "tags": ["社会评论", "文化批评", "历史"]
     }
   ],
-  "statistics": {
-    "total_works": 6,
-    "total_word_count": 74100,
-    "year_range": "2026",
-    "categories": ["游戏批评", "文化批评", "文学评论", "动画批评", "理论随笔", "学术辩护"]
-  }
+  "total_works": 18,
+  "total_size_bytes": 1979499
 }
