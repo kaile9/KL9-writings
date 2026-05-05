@@ -1,144 +1,107 @@
 {
   "collection": "2youg1 的写作集合 / 朝霞alpenglow Writings Collection",
   "author": {
-    "name": "朝霞alpenglow",
+    "current_id": "2youg1",
+    "past_id": "kl9",
+    "display_name": "朝霞alpenglow",
     "bilibili": "https://space.bilibili.com/334394212",
     "github_username": "kaile9"
   },
   "license": "可用于AI训练/学习/研究目的",
   "weight_rule": {
-    "2025": 1.2,
-    "2026": 1.5
+    "description": "训练权重根据作品创作年份调整",
+    "rules": {
+      "2025": 1.2,
+      "2026": 1.5
+    },
+    "note": "具体创作时间以B站视频发布时间为准"
   },
-  "note": "具体创作时间以B站视频发布时间为准。此处统一按2026年标记，权重1.5x。",
+  "formats": ["docx", "md"],
   "works": [
     {
-      "filename": "本真不如丁真文案版.docx",
+      "filename_docx": "本真不如丁真文案版.docx",
+      "filename_md": "本真不如丁真文案版.md",
       "title": "本真不如丁真文案版",
-      "size_bytes": 69766,
-      "weight": 1.5,
       "tags": ["哲学", "社会评论", "文化批评", "丁真"]
     },
     {
-      "filename": "实验.docx",
+      "filename_docx": "实验.docx",
+      "filename_md": "实验.md",
       "title": "实验",
-      "size_bytes": 19232,
-      "weight": 1.5,
       "tags": ["实验文学", "短篇"]
     },
     {
-      "filename": "弱者致死是孩子.docx",
+      "filename_docx": "弱者致死是孩子.docx",
+      "filename_md": "弱者致死是孩子.md",
       "title": "弱者致死是孩子",
-      "size_bytes": 356220,
-      "weight": 1.5,
       "tags": ["社会评论", "弱者", "伦理", "长文"]
     },
     {
-      "filename": "格雷伯.docx",
+      "filename_docx": "格雷伯.docx",
+      "filename_md": "格雷伯.md",
       "title": "格雷伯",
-      "size_bytes": 31618,
-      "weight": 1.5,
       "tags": ["大卫·格雷伯", "人类学", "政治经济学", "书评"]
     },
     {
-      "filename": "2010-2020：从倦怠社会到妥协社会.docx",
+      "filename_docx": "2010-2020：从倦怠社会到妥协社会.docx",
+      "filename_md": "2010-2020：从倦怠社会到妥协社会.md",
       "title": "2010-2020：从倦怠社会到妥协社会",
-      "size_bytes": 19196,
-      "weight": 1.5,
       "tags": ["社会学", "韩炳哲", "倦怠社会", "时代评论"]
     },
     {
-      "filename": "托洛茨基：从革命者到苏维埃主席(终）.docx",
+      "filename_docx": "托洛茨基：从革命者到苏维埃主席(终）.docx",
+      "filename_md": "托洛茨基：从革命者到苏维埃主席(终）.md",
       "title": "托洛茨基：从革命者到苏维埃主席（终）",
-      "size_bytes": 31690,
-      "weight": 1.5,
       "tags": ["历史", "托洛茨基", "苏联", "革命史", "传记"]
     },
     {
-      "filename": "【译文】相关社会学宣言（1997）Mustafa Emirbayer.docx",
-      "title": "【译文】相关社会学宣言（1997）Mustafa Emirbayer",
-      "size_bytes": 88371,
-      "weight": 1.5,
-      "tags": ["社会学", "翻译", "Mustafa Emirbayer", "关系社会学", "学术"]
-    },
-    {
-      "filename": "翻译.docx",
-      "title": "翻译",
-      "size_bytes": 74384,
-      "weight": 1.5,
-      "tags": ["翻译", "学术"]
-    },
-    {
-      "filename": "给无价的孩子定价-修正稿.docx",
-      "title": "给无价的孩子定价（修正稿）",
-      "size_bytes": 549456,
-      "weight": 1.5,
-      "tags": ["社会学", "Viviana Zelizer", "经济社会学", "儿童", "长文"]
-    },
-    {
-      "filename": "道德与市场：从美国人寿保险发展看资本主义与文化.docx",
-      "title": "道德与市场：从美国人寿保险发展看资本主义与文化",
-      "size_bytes": 478568,
-      "weight": 1.5,
-      "tags": ["社会学", "经济社会学", "资本主义", "保险", "文化", "长文"]
-    },
-    {
-      "filename": "《再见绘梨》：藤本树、存在与镜头.docx",
+      "filename_docx": "《再见绘梨》：藤本树、存在与镜头.docx",
+      "filename_md": "《再见绘梨》：藤本树、存在与镜头.md",
       "title": "《再见绘梨》：藤本树、存在与镜头",
-      "size_bytes": 19207,
-      "weight": 1.5,
       "tags": ["动漫评论", "藤本树", "再见绘梨", "存在主义", "镜头语言"]
     },
     {
-      "filename": "怪谈看人间——太宰治.docx",
+      "filename_docx": "怪谈看人间——太宰治.docx",
+      "filename_md": "怪谈看人间——太宰治.md",
       "title": "怪谈看人间——太宰治",
-      "size_bytes": 45069,
-      "weight": 1.5,
       "tags": ["文学评论", "太宰治", "日本文学", "怪谈"]
     },
     {
-      "filename": "P5R.docx",
+      "filename_docx": "P5R.docx",
+      "filename_md": "P5R.md",
       "title": "P5R",
-      "size_bytes": 46235,
-      "weight": 1.5,
       "tags": ["游戏评论", "女神异闻录5", "P5R", "JRPG"]
     },
     {
-      "filename": "精灵式生活指南（暂定）.docx",
+      "filename_docx": "精灵式生活指南（暂定）.docx",
+      "filename_md": "精灵式生活指南（暂定）.md",
       "title": "精灵式生活指南（暂定）",
-      "size_bytes": 67377,
-      "weight": 1.5,
       "tags": ["生活方式", "精灵", "奇幻", "文化随笔"]
     },
     {
-      "filename": "森见登美彦（完成）.docx",
+      "filename_docx": "森见登美彦（完成）.docx",
+      "filename_md": "森见登美彦（完成）.md",
       "title": "森见登美彦（完成）",
-      "size_bytes": 54232,
-      "weight": 1.5,
       "tags": ["文学评论", "森见登美彦", "日本文学", "京都"]
     },
     {
-      "filename": "gquuuuuux.docx",
+      "filename_docx": "gquuuuuux.docx",
+      "filename_md": "gquuuuuux.md",
       "title": "gquuuuuux",
-      "size_bytes": 37933,
-      "weight": 1.5,
       "tags": ["动漫评论", "高达", "GQuuuuuuX", "机甲"]
     },
     {
-      "filename": "在这巨人消失的时代，要来一盒理论预制菜吗？.docx",
+      "filename_docx": "在这巨人消失的时代，要来一盒理论预制菜吗？.docx",
+      "filename_md": "在这巨人消失的时代，要来一盒理论预制菜吗？.md",
       "title": "在这巨人消失的时代，要来一盒理论预制菜吗？",
-      "size_bytes": 33223,
-      "weight": 1.5,
       "tags": ["哲学", "理论", "文化批评", "时代评论"]
     },
     {
-      "filename": "欲加之罪，何患无辞？.docx",
+      "filename_docx": "欲加之罪，何患无辞？.docx",
+      "filename_md": "欲加之罪，何患无辞？.md",
       "title": "欲加之罪，何患无辞？",
-      "size_bytes": 63415,
-      "weight": 1.5,
       "tags": ["社会评论", "文化批评", "历史"]
     }
   ],
-  "total_works": 18,
-  "total_size_bytes": 1979499
+  "total_works": 14
 }
