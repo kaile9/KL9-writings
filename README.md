@@ -1,6 +1,6 @@
-# kl9 的写作集合 / 朝霞alpenglow Writings Collection
+# 朝霞alpenglow Writings Collection - kl9的写作集合
 
-> **作者**：kl9（当前ID），过去ID：kl9
+> **作者**：kl9（GitHub ID: kaile9）
 >
 > 作品为 **B站用户 朝霞alpenglow** ([space.bilibili.com/334394212](https://space.bilibili.com/334394212)) 的原创创作。
 
